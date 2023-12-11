@@ -1,6 +1,6 @@
 # Data Structures and ALgorithms
 
-This README provides a brief overview of different Data Structures and ALgorithms.
+This README provides a brief overview of different Data Structures and Algorithms.
 
 ## Object-Oriented Programming (OOP)
 
@@ -43,4 +43,64 @@ Compile time refers to the phase when the source code is translated into machine
 ### Runtime
 
 Runtime is the phase when the compiled program is running and performing tasks. Activities include executing instructions and processing data. Runtime errors may occur during program execution.
+
+
+## Stack
+
+### Memory Allocation
+
+- **Automatic Allocation:** Memory is automatically allocated and deallocated as functions are called and return.
+- **LIFO (Last-In-First-Out):** The most recently called function's variables are stored at the top of the stack.
+
+### Scope
+
+- **Local Variables:** Typically used for local variables within functions.
+- **Limited Lifetime:** Variables have a limited lifetime, tied to the scope of the function they belong to.
+
+### Access Speed
+
+- **Faster Access:** Memory access is faster since it involves moving the stack pointer up and down.
+
+### Size Limitations
+
+- **Limited Size:** The size of the stack is usually limited, and exceeding it can lead to a stack overflow.
+
+### Thread-specific
+
+- **Per Thread:** Each thread of execution has its own stack.
+
+### Usage
+
+- **Method Calls:** Used for managing function calls and local variables.
+- **Efficiency:** Generally more efficient for managing memory with a known and limited scope.
+
+## Heap
+
+### Memory Allocation
+
+- **Manual Allocation:** Memory is manually allocated and deallocated.
+- **Dynamic Allocation:** Allows for dynamic memory allocation during runtime.
+
+### Scope
+
+- **Global Variables:** Typically used for global variables and objects that need a longer lifetime.
+- **Extended Lifetime:** Variables can persist beyond the scope of the functions that created them.
+
+### Access Speed
+
+- **Slower Access:** Memory access is relatively slower since it involves locating a free block of memory and updating memory allocation tables.
+
+### Size Limitations
+
+- **Dynamic Size:** The size of the heap is more flexible and can grow as needed (limited by available system memory).
+
+### Shared among Threads
+
+- **Shared Space:** Heap memory is shared among all threads in a program.
+
+### Usage
+
+- **Dynamic Data:** Used for managing data with an unknown or variable runtime size.
+- **Flexibility:** Provides more flexibility for managing memory at runtime.
+
 
