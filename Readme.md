@@ -102,5 +102,47 @@ Runtime is the phase when the compiled program is running and performing tasks. 
 
 - **Dynamic Data:** Used for managing data with an unknown or variable runtime size.
 - **Flexibility:** Provides more flexibility for managing memory at runtime.
+ 
+ 
+# Summary For the day
+## Procedural Language
+
+- **Definition:** Specifies a series of well-structured steps and procedures to compose a program, involving statements, functions, and commands.
+
+## Functional Language
+
+- **Definition:** Involves writing a program solely in pure functions, bundling code together for reuse, emphasizing creating new data without modifying original variables.
+
+## Object-Oriented Programming (OOP)
+
+- **Definition:** Focuses on dividing code into objects, combining code and data to form objects, allowing for easier development, debugging, reuse, and maintenance of software.
+
+## Static vs. Dynamic Languages
+
+- **Definition:** Static languages perform type checking at compile time, requiring variable types to be specified in advance. Dynamic languages perform type checking at runtime, allowing flexibility in changing variable types during execution.
+
+## Dynamic Language Behavior
+
+- **Definition:** In dynamic languages like Python, changing variable types during runtime doesn't result in compile-time errors, as types are determined during program execution.
+
+## Variables in Static Languages
+
+- **Definition:** Variables in static languages must be assigned a data type, and changing types leads to compile-time errors.
+
+## Data Type Declaration
+
+- **Definition:** Declaring data types before usage provides more control and reduces runtime errors in static languages.
+
+## Dynamic Language Convenience
+
+- **Definition:** Dynamic languages don't require specifying data types, saving coding time, but may lead to runtime errors.
+
+## Memory Management
+
+- **Definition:** Memory management involves stack and heap memory. Variables are in the stack, and actual values are in the heap.
+
+## Multiple Reference Variables
+
+- **Definition:** Multiple reference variables can point to the same object; changes in one variable reflect in others pointing to the same object.
 
 
